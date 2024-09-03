@@ -80,11 +80,11 @@ def print_status(self):
     # Print the current status of the agent
     print(f"Location: {self.location}, Dirt Status: {self.dirt_status}")
 ```
-<h3>Example usage:</h3>
-<p>agent = VacuumCleanerAgent()</p>
-<h3>Move the agent, suck dirt, and do nothing</h3>
-<p>agent.perform_action("left") agent.print_status() agent.perform_action("suck") agent.print_status() agent.perform_action("nothing") agent.print_status()</p>
-<h3>OUTPUT</h3>
+<H3>Example usage:</H3>
+<P>agent = VacuumCleanerAgent()</P>
+<H3>Move the agent, suck dirt, and do nothing</H3>
+<P>agent.perform_action("left") agent.print_status() agent.perform_action("suck") agent.print_status() agent.perform_action("nothing") agent.print_status()</P>
+<H3>OUTPUT</H3>
 ![Screenshot 2024-09-03 102344](https://github.com/user-attachments/assets/56dc898e-516e-49c1-917a-69c83596e2df)
-<h3>RESULT</h3>
-<p>Thus, an AI agent is developed.</p>
+<H3>RESULT</H3>
+<P>Thus, an AI agent is developed.</P>
